@@ -11,8 +11,9 @@ void main() {
   // print(names.length);
   // print(names.elementAt(0));
   // print(names);
-  // names.replaceRange(0, 3, ["Ahsan", "Umar", "Faisal"]); // start is inclusive and end is exclusive
-  // print(names);
-  names.replaceRange(names.length-1, names.length,['Imran']);
+   names.replaceRange(0, 3, ["Ahsan", "Umar", "Faisal"]); // start is inclusive and end is exclusive
+   print(names);
+   names.replaceRange(names.length-1, names.length,['Imran']);
   print(names);
+ 
 }
